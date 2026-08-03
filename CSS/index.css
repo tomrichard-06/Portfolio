@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    gap: 100px
+}
+
+.start-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.start-description h1 {
+    font-size: 50px;
+}
+
+.start-description h3 {
+    font-size: 30px;
+    color: #6C757D;
+}
+
+.start-description p {
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #ADB5BD;
+}
+
+button {
+    background-color: var(--button);
+    color: white;
+    padding: 14px 28px;
+    width: fit-content;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f34213;
+    color: white;
+    padding: 14px 28px;
+    width: fit-content;
+    font-size: 20px;
+    text-shadow: 0 0 10px #ffffff;
+    transition: 0.1s;
+}
+
+img {
+    width: 460px;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 190px;
+    padding-right: 190px;
+    
+    gap: 37px;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.introduction h2 {
+    padding-left: 37px;
+}
+
+.introduction p {
+    padding-left: 37px;
+}
+
+.introduction ul {
+    padding-left: 37px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
