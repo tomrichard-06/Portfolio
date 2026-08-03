@@ -5,11 +5,11 @@ main {
     padding-left: 190px;
     padding-right: 190px;
     
-    gap: 37px;
+    gap: 55px;
 }
 
 h1 {
-    font-size: 37px;
+    font-size: 3rem;
 }
 
 .introduction {
@@ -19,15 +19,21 @@ h1 {
 }
 
 .introduction h2 {
+    font-size: 2rem;
     padding-left: 37px;
+    color: #DEE2E6;
 }
 
 .introduction p {
     padding-left: 37px;
+    font-size: 1.5rem;
+    color: #ADB5BD;
 }
 
 .introduction ul {
     padding-left: 37px;
+    font-size: 1.5rem;
+    color: #ADB5BD;
 }
 
 img {

@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 190px;
+    padding-right: 190px;
+    
+    gap: 100px;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border:3px solid white;
+    border-radius:50%;
+}
+
+.line{
+    width:2px;
+    flex:1;
+    background:white;
+    margin-top:5px;
+}
+
+.content {
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-description {
+    margin-left: 20px;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #DEE2E6;
+}
+
+h1:hover {
+    color: #f44708;
+}
